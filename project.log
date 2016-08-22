@@ -1,0 +1,72 @@
+[INFO]2015-05-15 13:50:57 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] SET autocommit=0,()
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] START TRANSACTION,()
+[INFO]2015-05-15 13:50:57 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] SELECT * FROM course_meta_course WHERE `course_id`=%s   LIMIT 0, 1,['course-v1:NYIF+YCA2015.1.2x+2015_Q2']
+[INFO]2015-05-15 13:50:57 course.py[method:_save_single_course, line:49] 课程id为course-v1:NYIF+YCA2015.1.2x+2015_Q2 的课程已经存在!
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] COMMIT,()
+[INFO]2015-05-15 13:50:57 database.py[method:execute, line:89] SET autocommit=1,()
+[INFO]2015-05-15 13:52:24 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] SET autocommit=0,()
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] START TRANSACTION,()
+[INFO]2015-05-15 13:52:24 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] SELECT * FROM course_meta_course WHERE `course_id`=%s   LIMIT 0, 1,['course-v1:UQx+World101x+2T2015']
+[INFO]2015-05-15 13:52:24 course.py[method:_save_single_course, line:49] 课程id为course-v1:UQx+World101x+2T2015 的课程已经存在!
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] COMMIT,()
+[INFO]2015-05-15 13:52:24 database.py[method:execute, line:89] SET autocommit=1,()
+[INFO]2015-05-15 13:52:32 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] SET autocommit=0,()
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] START TRANSACTION,()
+[INFO]2015-05-15 13:52:32 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] SELECT * FROM course_meta_course WHERE `course_id`=%s   LIMIT 0, 1,['course-v1:UBCx+Marketing5502x+3T2015']
+[INFO]2015-05-15 13:52:32 course.py[method:_save_single_course, line:49] 课程id为course-v1:UBCx+Marketing5502x+3T2015 的课程已经存在!
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] COMMIT,()
+[INFO]2015-05-15 13:52:32 database.py[method:execute, line:89] SET autocommit=1,()
+[INFO]2015-05-15 13:56:36 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] SET autocommit=0,()
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] START TRANSACTION,()
+[INFO]2015-05-15 13:56:36 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] SELECT * FROM course_meta_course WHERE `course_id`=%s   LIMIT 0, 1,['course-v1:MITx+24.118x+2T2015']
+[INFO]2015-05-15 13:56:36 course.py[method:_save_single_course, line:49] 课程id为course-v1:MITx+24.118x+2T2015 的课程已经存在!
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] COMMIT,()
+[INFO]2015-05-15 13:56:36 database.py[method:execute, line:89] SET autocommit=1,()
+[INFO]2015-05-15 14:02:06 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] SET autocommit=0,()
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] START TRANSACTION,()
+[INFO]2015-05-15 14:02:06 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] SELECT * FROM course_meta_course WHERE `course_id`=%s   LIMIT 0, 1,['course-v1:IDBx+IDB9x+2015_T2']
+[INFO]2015-05-15 14:02:06 course.py[method:_save_single_course, line:49] 课程id为course-v1:IDBx+IDB9x+2015_T2 的课程已经存在!
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] COMMIT,()
+[INFO]2015-05-15 14:02:06 database.py[method:execute, line:89] SET autocommit=1,()
+[INFO]2015-05-15 14:02:20 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] SET autocommit=0,()
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] START TRANSACTION,()
+[INFO]2015-05-15 14:02:20 database.py[method:get_server, line:187] --->get_server:edxapp,edxapp,192.168.9.189:3306:edxapp,0
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] set names 'utf8',()
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] set autocommit=1,()
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] SELECT * FROM course_meta_course WHERE `course_id`=%s   LIMIT 0, 1,['HarvardX/HLS2x/1T2015']
+[INFO]2015-05-15 14:02:20 course.py[method:_save_single_course, line:49] 课程id为HarvardX/HLS2x/1T2015 的课程已经存在!
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] COMMIT,()
+[INFO]2015-05-15 14:02:20 database.py[method:execute, line:89] SET autocommit=1,()

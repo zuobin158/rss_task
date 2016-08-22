@@ -1,0 +1,48 @@
+                    ---项目说明---
+    该项目为通过edx提供的rss内容来获取课程信息，把课程信息
+写入数据库，并根据rss中的video路径把视频地址下载到本地，
+然后把文件上传到xuetangx的cc。
+
+
+                    ---模块说明---
+(1) __init__.py:
+    项目初始化的相关配置，包括启动参数env和日志
+logging输出格式的设置。env是启动时环境参数，包括dev和online，
+dev是开发环境，连接的是测试库，online为生产环境，连接的是线
+上库。logging为指定日志的输出路径和格式。
+
+(2) course.py:
+    课程的相关操作，包括课程的获取、属性字段转换、重复课程
+检测、写入数据库等操作，还包括老师和课程对应关系的保存。
+
+(3) download.py:
+    视频文件的下载，通过youtube-dl工具通过shell命令进行视频
+文件的下载并上传到cc。上传成功后会对课程表和rss课程信息进行
+更新。
+
+(4) database.py:
+    在 lib/database.py，mysql的操作基类。
+
+(5) ccuploader.jar:
+    在 lib/ccuploader.jar,上传cc用的java工具包
+
+(6) uploaded_history.txt:
+    在 result/uploaded_history.txt,上传cc的结果记录
+
+(7) rss.py:
+    rss的解析，整合课程数据
+
+(8) settings.py:
+    相关配置信息，包括相关常量，数据库配置等。
+
+(9) upload.py:
+    上传cc的相关操作。
+
+(10) util.py:
+    常用工具方法
+
+(11) dayly.log: 
+    在logs/upfileclient/dayly.log，是上传cc的相关日志
+
+(12) rss.log:
+    程序日志,会记录定时任务中的所有级别的日志
